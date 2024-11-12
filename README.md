@@ -18,12 +18,13 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 Users should be able to:
 
+
 - See hover and focus states for all interactive elements on the page.
 - Access User's Social Media Sites with a simple click.
 
 ### Screenshot
 
-![](assets/images/Social Profile.png)
+<img width="1440" alt="Social Profile" src="https://github.com/user-attachments/assets/350da4d2-efad-49a1-bf19-6f42f6b756b1">
 
 ### Links
 
