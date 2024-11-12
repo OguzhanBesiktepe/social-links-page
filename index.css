@@ -5,47 +5,51 @@
 
 body{
     margin: 0;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
-    background-color: #141414;
+    margin-top: 150px;
     text-align: center;
     font-family: Inter-Regular;
+    background-image: url("assets/images/Istanbul.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .border{
-    width: 300px;
-    padding: 20px;
+    width: 500px;
+    padding: 40px;
     height: auto;
-    border-radius: 10px;
-    background-color: #1c1c1c;
+    border-radius: 15px;
+    background-color: #7f757fe8; 
+    box-shadow: 0 0 20px rgba(26, 25, 25, 0.6);
 }
 
 .Picture{
-    width: 150px; 
-    height: 150px; 
+    width: 250px; 
+    height: 250px; 
     border-radius: 50%; 
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.603);
     margin-bottom: 15px;
 }
 
 #name{
-    color:#DCDCDC;
-    font-size: 18px;
+    color:#F4DBC1;
+    font-size: 30px;
     margin: 10px 0;
 }
 
 #location{
-    margin-top: -5px;
-    color: #C1DE50;
-    font-size: 12px;
+    color: #aa3b41;
+    font-size: 18px;
 }
 
 #description{
-    color:#DCDCDC;
-    margin-bottom: 15px;
-    font-size: 10px;
+    color:#F4DBC1;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .SecondSet{
@@ -53,29 +57,29 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 button{
-    background-color: #333333;
+    background-color: #a73238;
     border: none;
     border-radius: 5px;
     gap: 8px;
-    width: 200px;
-    height: 30px;
+    width: 350px;
+    height: 50px;
     padding: 5px;
-    color: #DCDCDC;
+    color: #F4DBC1;
     font-weight: bold;
+    font-size: 16px;
     cursor: pointer;   
 }
 
 .Icon {
-    width: 16px;
-    height: 16px;
-    margin-left: 8px;
+    width: 25px;
+    height: 25px;
 }
 
 button:hover {
-    background-color: #C1DE50;
-    color: #333333;
+    background-color: #E5535A;
+    color: #642D27;
 }
